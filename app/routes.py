@@ -6,7 +6,7 @@ app = Flask(__name__)  # instantiate the Flask class into app (now an object)
 @app.get("/")  # Flask decorator that maps a route to a view function
 def index():  # a wrapped function is a view function in flask
     me = {
-        "first_name": "Jorge",
+        "first_name": "JorgeM",
         "last_name": "Cano",
         "hobbies": "music"
     } 
