@@ -9,5 +9,5 @@ def index():  # a wrapped function is a view function in flask
         "first_name": "Jorge",
         "last_name": "Cano",
         "hobbies": "music"
-    }
+    } 
     return me  # when you return a dictionary from flask view function flask will automatically convert it to JSON
