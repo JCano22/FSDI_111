@@ -2,4 +2,3 @@
 # -*- coding: utf8 -*-
 """Sample Hello world Flask app"""
 
-from app import app
